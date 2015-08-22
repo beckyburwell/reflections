@@ -1,0 +1,49 @@
+Use the -u argument for unified to diff. e.g.
+    diff -u old.txt new.txt
+
+Q:How did viewing a diff between two versions of a file help you see the
+bug that was introduced?
+
+A: Only the lines around errors and the actual lines themselves get
+printed rather than all the lines.
+
+Q: How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+A: You can see common errors, techniques and perhaps not make them in the future.
+
+Q: What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+
+A: pros: commit make sense to you. it is your idea of when to make a commit
+cons: you might forget to make commits and too much goes into a change
+
+Q: Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+
+A: Git is for programming and typically there are a number of files
+that comprise a project. You need multiple files to accomplish a task.
+
+Google Docs is just a documentation system and each file is largerly
+independent, though often you link to separate documents.
+
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A:
+
+1. Use git log in a repo and see the changes. 
+2. Find the 2 commits.
+3. Use git giff <commit1> <commit2>
+4. Examine the diffs. Green means added. Red means subtracted.
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: Knowing we can easily revert back with one simple command and not an onerous
+task of editing files frees us up to test more.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: I want to practice when I mess up with master
+
+
+

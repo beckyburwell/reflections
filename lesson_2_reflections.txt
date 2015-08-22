@@ -1,0 +1,14 @@
+Note:
+git init (to get started)
+git status (to find out the status)
+
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: Directory .git is created and the status of tracking your files is created inside that dir
+
+Q: How is the staging area different from the working directory and
+the repository? What value do you think it offers?  
+
+A: Staging area shows you what will end up in the repository. It is
+flagged as going in but not in the respository yet. It shows intention but
+doesn't force you to put it there yet. Shows an intended action.
