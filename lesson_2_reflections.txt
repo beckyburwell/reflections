@@ -12,3 +12,13 @@ the repository? What value do you think it offers?
 A: Staging area shows you what will end up in the repository. It is
 flagged as going in but not in the respository yet. It shows intention but
 doesn't force you to put it there yet. Shows an intended action.
+
+Q: How can you use the staging area to make sure you have one commit
+per logical change?
+
+A: ?
+
+Q: What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+A: branch names would indicate the logical ideas you had around making the changes
+
