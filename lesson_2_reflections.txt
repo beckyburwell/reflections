@@ -22,3 +22,13 @@ Q: What are some situations when branches would be helpful in keeping
 your history organized? How would branches help?
 A: branch names would indicate the logical ideas you had around making the changes
 
+Q: How do the diagrams help you visualize the branch structure?
+A: You can clearly see which commits are part of which branches
+
+Q:What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+A: We trace back to the common root and merge files where we can.
+We will need to ask about conflicting merges.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: You might get oddly performing code if you automatically merge code.
