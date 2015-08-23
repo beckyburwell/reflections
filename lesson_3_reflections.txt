@@ -7,3 +7,10 @@ Why might you want to always pull changes manually rather than having
 Git automatically stay up-to-date with your remote repository?
 
 -- the remote repository might contain incompatible changes with your repo
+
+Describe the differences between forks, clones, and branches. When
+would you use one instead of another?
+-- fork: like clone but copies a repo from a place on github to a place on github
+-- clone: copies a remote repo to a local repo
+-- branch: allows files of same name to exist in same repo but with different content.
+You can have branches locally and/or remotely
